@@ -13,7 +13,7 @@ The Cityscapes dataset can be downloaded in their [official website](https://www
 
 # downlao pre-trained weights:
 
-to downlaod COCO pre-trained weights, run:
+To downlaod COCO pre-trained weights, run:
 
 # Pre-trained models
 Pre-trained models can be downloaded [here](https://www.cityscapes-dataset.com/).
