@@ -10,3 +10,11 @@ The required packages are pytorch and torchvision, together with PIL and opencv 
 # Datasets
 DMTC is evaluated with tow common datasets: CityScapes and PASCAL VOC. 
 The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
+
+# downlao pre-trained weights:
+
+to downlaod COCO pre-trained weights, run:
+
+# Pre-trained models
+Pre-trained models can be downloaded [here](https://www.cityscapes-dataset.com/).
+
