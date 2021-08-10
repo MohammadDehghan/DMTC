@@ -8,4 +8,5 @@ This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 
 The required packages are pytorch and torchvision, together with PIL and opencv for data-preprocessing and tqdm for showing the training progress. To setup the necessary modules, simply run:
 
 # Datasets
-DMTC is evaluated with tow common datasets: CityScapes and PASCAL VOC. The Cityscapes dataset can be downloaded in their [official website](https://pages.github.com/).
+DMTC is evaluated with tow common datasets: CityScapes and PASCAL VOC. 
+The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
