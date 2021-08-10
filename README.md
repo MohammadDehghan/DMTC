@@ -10,7 +10,7 @@ The required packages are pytorch and torchvision, together with PIL and opencv 
 # Datasets
 DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: CityScapes and PASCAL VOC. 
 * Cityscapes:
-- The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
+  - The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
 
 * Pascal VOC:
 
