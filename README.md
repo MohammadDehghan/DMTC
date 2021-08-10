@@ -21,14 +21,16 @@ DMTC is evaluated with tow common datasets in semi-supervised semantic segmentat
 To downlaod COCO pre-trained weights, run:
 
 ## Pre-trained models
-Pre-trained models can be downloaded [here](https://www.cityscapes-dataset.com/).
+Pre-trained models can be downloaded [here](not availabel).
 
-## Citation 
+## Citation :pencil:
 If you find this repo useful for your research, please consider citing the paper as follows:
+
 ## To do list:
-- [x] #739
+- [x] prepare pretrained models
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
+
 ## Acknowledgements
 
 The overall implementation is based on TorchVision and PyTorch.
