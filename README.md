@@ -8,13 +8,22 @@ This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 
 The required packages are pytorch and torchvision, together with PIL and opencv for data-preprocessing and tqdm for showing the training progress. To setup the necessary modules, simply run:
 
 # Datasets
-DMTC is evaluated with tow common datasets: CityScapes and PASCAL VOC. 
+DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: CityScapes and PASCAL VOC. 
+* Cityscapes
 The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
 
-# downlao pre-trained weights:
+* Pascal VOC
+# download pre-trained weights:
 
 To downlaod COCO pre-trained weights, run:
 
 # Pre-trained models
 Pre-trained models can be downloaded [here](https://www.cityscapes-dataset.com/).
 
+# Citation 
+If you find this repo useful for your research, please consider citing the paper as follows:
+# Acknowledgements
+
+The overall implementation is based on TorchVision and PyTorch.
+
+Pseudo-labels generation is based on Jiwoon Ahn's implementation
