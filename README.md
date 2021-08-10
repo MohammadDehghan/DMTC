@@ -10,9 +10,10 @@ The required packages are pytorch and torchvision, together with PIL and opencv 
 # Datasets
 DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: CityScapes and PASCAL VOC. 
 * Cityscapes:
-  - The Cityscapes dataset can be downloaded in their [official website](https://www.cityscapes-dataset.com/). first download Cityscapes, then set data_dir to the dataset path in the xxx file.
+  - First download Cityscapes from their [official website](https://www.cityscapes-dataset.com/), then set data_dir to the dataset path in the xxx file.
 
 * Pascal VOC:
+  - First download the original dataset, after extracting the files we'll end up with VOCtrainval_11-May-2012/VOCdevkit/VOC2012 containing the image sets, the XML annotation for both object detection and segmentation, and JPEG images. The second step is to augment the dataset using the additionnal annotations provided by Semantic Contours from Inverse Detectors. Download the rest of the annotations SegmentationClassAug and add them to the path VOCtrainval_11-May-2012/VOCdevkit/VOC2012, now we're set, for training use the path to VOCtrainval_11-May-2012.
 
 
 # download pre-trained weights:
