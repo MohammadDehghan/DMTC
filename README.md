@@ -8,9 +8,9 @@ This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 
 The required packages are pytorch and torchvision, together with PIL and opencv for data-preprocessing and tqdm for showing the training progress. To setup the necessary modules, simply run:
 
 # Datasets
-DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: CityScapes and PASCAL VOC. 
+DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: **CityScapes** and **PASCAL VOC**. 
 * Cityscapes:
-  - First download Cityscapes from their [official website](https://www.cityscapes-dataset.com/), then set data_dir to the dataset path in the xxx file.
+  - First download the original dataset from the [official website](https://www.cityscapes-dataset.com/), leftImg8bit_trainvaltest.zip and gtFine_trainvaltest.zip.  then Create and extract them to the corresponding dataset/cityscapes folder. 
 
 * Pascal VOC:
   - First download the original dataset, after extracting the files we'll end up with VOCtrainval_11-May-2012/VOCdevkit/VOC2012 containing the image sets, the XML annotation for both object detection and segmentation, and JPEG images. The second step is to augment the dataset using the additionnal annotations provided by Semantic Contours from Inverse Detectors. Download the rest of the annotations SegmentationClassAug and add them to the path VOCtrainval_11-May-2012/VOCdevkit/VOC2012, now we're set, for training use the path to VOCtrainval_11-May-2012.
