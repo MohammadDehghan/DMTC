@@ -7,7 +7,7 @@ This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 
 
 The required packages are pytorch and torchvision, together with PIL and opencv for data-preprocessing and tqdm for showing the training progress. To setup the necessary modules, simply run:
 ```
-pip install 
+pip install -r requirements.txt 
 ```
 ## Datasets
 DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: **CityScapes** and **PASCAL VOC**. 
@@ -15,23 +15,33 @@ DMTC is evaluated with tow common datasets in semi-supervised semantic segmentat
   - First download the original dataset from the [official website](https://www.cityscapes-dataset.com/), leftImg8bit_trainvaltest.zip and gtFine_trainvaltest.zip.  then Create and extract them to the corresponding dataset/cityscapes folder. 
 
 * Pascal VOC:
-  - First download the original dataset, after extracting the files we'll end up with VOCtrainval_11-May-2012/VOCdevkit/VOC2012 containing the image sets, the XML annotation for both object detection and segmentation, and JPEG images. The second step is to augment the dataset using the additionnal annotations provided by Semantic Contours from Inverse Detectors. Download the rest of the annotations SegmentationClassAug and add them to the path VOCtrainval_11-May-2012/VOCdevkit/VOC2012, now we're set, for training use the path to VOCtrainval_11-May-2012.
+  - First download the [original dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar), after extracting the files we'll end up with VOCtrainval_11-May-2012/VOCdevkit/VOC2012 containing the image sets, the XML annotation for both object detection and segmentation, and JPEG images. The second step is to augment the dataset using the additionnal annotations provided by Semantic Contours from Inverse Detectors. Download the rest of the annotations SegmentationClassAug and add them to the path VOCtrainval_11-May-2012/VOCdevkit/VOC2012, now we're set, for training use the path to VOCtrainval_11-May-2012.
 
 
 ## download pre-trained weights:
 
 To downlaod COCO pre-trained weights, run:
+```
+./prepare_coco.sh
+```
 
 ## Pre-trained models
 Pre-trained models can be downloaded [here](not availabel).
 
 ## Citation :pencil:
-If you find this repo useful for your research, please consider citing the paper as follows:
-
+If you find this repo/article useful for your research, please consider citing the paper as follows (we will put it here):
+```
+@article{xxxxxx,
+  title={DMTC: Dynamic Mutual Training for Semi-Supervised Semantic Segmentation},
+  author={},
+  journal={},
+  year={}
+}
+```
 ## To do list:
-- [x] prepare pretrained models
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] prepare pretrained models
+- [ ] 
+- [ ] 
 
 ## Acknowledgements
 
