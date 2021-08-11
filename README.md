@@ -6,7 +6,9 @@ This repo contains the official implementation of our paper: Mutual Dynamic Trai
 This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA ?. we have used automatic mixed precision training which is availabel for PyTorch versions >=1.7 .
 
 The required packages are pytorch and torchvision, together with PIL and opencv for data-preprocessing and tqdm for showing the training progress. To setup the necessary modules, simply run:
-
+```
+pip install 
+```
 ## Datasets
 DMTC is evaluated with tow common datasets in semi-supervised semantic segmentation: **CityScapes** and **PASCAL VOC**. 
 * Cityscapes:
