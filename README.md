@@ -38,6 +38,6 @@ If you find this repo/article useful for your research, please consider citing t
 
 ## Acknowledgements
 
-The overall implementation is based on TorchVision and PyTorch and DMT article.
+The overall implementation is based on TorchVision and PyTorch and DMT github repo.
 
-Pseudo-labels generation is based on Jiwoon Ahn's implementation
+The contrastive part is adapted from ReCo.
