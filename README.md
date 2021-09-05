@@ -19,7 +19,7 @@ DMTC is evaluated with tow common datasets in semi-supervised semantic segmentat
 
 
 ## Pre-trained models
-Pre-trained models can be downloaded [here](not availabel).
+Pre-trained models can be downloaded [here](https://drive.google.com/file/d/1sQ_FmyHrWmqJLCrW9vJTnv61Sp4hn-9m/view?usp=sharing).
 
 ## Citation :pencil:
 If you find this repo/article useful for your research, please consider citing the paper as follows (we will put it here):
