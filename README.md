@@ -1,6 +1,6 @@
 # DMTC: Mutual Dynamic Training based on Contrastive learning for semi-supervised semantic segmentation
 
-This repo contains the official implementation of our paper: Mutual Dynamic Training based on contrastive learning for semi-supervised semantic segmentation, which is  an concise and effective method for semi-supervised learning semantic segmentation. 
+This repo contains the official implementation of our paper: Mutual Dynamic Training based on Contrastive learning for semi-supervised semantic segmentation, which is  an concise and effective method for semi-supervised learning semantic segmentation. 
 
 ## Requirements
 This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 11.1. we have used automatic mixed precision training which is availabel for PyTorch versions >=1.7 .
