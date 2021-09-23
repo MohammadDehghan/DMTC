@@ -5,7 +5,7 @@ This repo contains the official implementation of our paper: Dynamic Mutual Trai
 ![GitHub Logo](/DMTC_pics/DMTC_diagram.png)
 
 ## Results
-* Cityscapes:
+On Cityscapes:
 Labeled data | Architecture | Backbone | mIoU
 ------------ | ------------- | ------------ | -------------
 Full (2975) | DeepLabV2 | ResNet-101 | 68.9
@@ -13,7 +13,7 @@ Full (2975) | DeepLabV2 | ResNet-101 | 68.9
 1/8 (372) | DeepLabV2 | ResNet-101 | 65.33
 1/30 (100) | DeepLabV2 | ResNet-101 | 59.54
 
-* PASCAL VOC:
+On PASCAL VOC:
 Labeled data | Architecture | Backbone | mIoU
 ------------ | ------------- | ------------ | -------------
 Full (10582) | DeepLabV2 | ResNet-101 | 75.50
