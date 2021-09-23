@@ -6,6 +6,7 @@ This repo contains the official implementation of our paper: Dynamic Mutual Trai
 
 ## Results
 Labeled data | Architecture | Backbone | mIoU
+------------ | ------------- | ------------ | -------------
 Full (2975) | DeepLabV2 | ResNet-101 | 68.9
 1/4 (744) | DeepLabV2 | ResNet-101 | 66.37
 1/8 (372) | DeepLabV2 | ResNet-101 | 65.33
