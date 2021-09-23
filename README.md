@@ -5,12 +5,22 @@ This repo contains the official implementation of our paper: Dynamic Mutual Trai
 ![GitHub Logo](/DMTC_pics/DMTC_diagram.png)
 
 ## Results
+* Cityscapes:
 Labeled data | Architecture | Backbone | mIoU
 ------------ | ------------- | ------------ | -------------
 Full (2975) | DeepLabV2 | ResNet-101 | 68.9
 1/4 (744) | DeepLabV2 | ResNet-101 | 66.37
 1/8 (372) | DeepLabV2 | ResNet-101 | 65.33
 1/30 (100) | DeepLabV2 | ResNet-101 | 59.54
+
+* PASCAL VOC:
+Labeled data | Architecture | Backbone | mIoU
+------------ | ------------- | ------------ | -------------
+Full (10582) | DeepLabV2 | ResNet-101 | 75.50
+1/8 | DeepLabV2 | ResNet-101 | 72.50
+1/20 | DeepLabV2 | ResNet-101 | 70.2
+1/50 | DeepLabV2 | ResNet-101 | 68.1
+1/100 | DeepLabV2 | ResNet-101 | 65.45
 
 ## Requirements
 This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 11.1. we have used automatic mixed precision training which is availabel for PyTorch versions >=1.7 .
