@@ -65,7 +65,7 @@ If you find this repo/article useful for your research, please consider citing t
 - [ ] 
 
 ## Contact:
-If you have any questions which can not find in Google, Feel free to contact us via Gmail m.dehghan9975@gmail.com.
+If you have any questions which can not find in Google, feel free to contact us via m.dehghan9975@gmail.com.
 
 ## Acknowledgements
 
