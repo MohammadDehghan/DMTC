@@ -60,7 +60,7 @@ If you find this repo/article useful for your research, please consider citing t
 }
 ```
 ## To do list:
-- [ ] Prepare pretrained weights 
+- [ ] Prepare pre-trained weights 
 - [ ] 
 - [ ] 
 
