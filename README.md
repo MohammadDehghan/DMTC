@@ -1,6 +1,6 @@
 # DMTC: Dynamic Mutual Training based on Contrastive learning for semi-supervised semantic segmentation
 
-This repo contains the official implementation of our paper: Dynamic Mutual Training based on Contrastive learning for semi-supervised semantic segmentation, which is an concise and effective method for semi-supervised learning semantic segmentation. 
+This repo contains the official implementation of our paper: Dynamic Mutual Training based on Contrastive learning for semi-supervised semantic segmentation, which is a concise and effective method for semi-supervised learning semantic segmentation. 
 
 ![GitHub Logo](/DMTC_pics/DMTC_diagram.png)
 
