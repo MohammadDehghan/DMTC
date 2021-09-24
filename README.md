@@ -37,6 +37,14 @@ DMTC is evaluated with two common datasets in semi-supervised semantic segmentat
 * PASCAL VOC:
   - First download the [original dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar), after extracting the files we'll end up with VOCtrainval_11-May-2012/VOCdevkit/VOC2012 containing the image sets, the XML annotation for both object detection and segmentation, and JPEG images. The second step is to augment the dataset using the additional annotations provided by Semantic Contours from Inverse Detectors. Download the rest of the annotations SegmentationClassAug and add them to the path VOCtrainval_11-May-2012/VOCdevkit/VOC2012, now we're set, for training use the path to VOCtrainval_11-May-2012.
 
+## Run the code
+* Set dataset paths:
+Set the directories of your datasets [here](https://github.com/MD-IUST/DMTC/blob/main/utils/common.py)
+ 
+For example, for running DMTC on Cityscapes dataset with 1/8 total labeled data:
+```
+./dmtc-city-8-1.sh
+```
 
 ## Pre-trained weights 
 Pre-trained weights  can be downloaded [here](https://drive.google.com/file/d/1sQ_FmyHrWmqJLCrW9vJTnv61Sp4hn-9m/view?usp=sharing).
@@ -55,6 +63,9 @@ If you find this repo/article useful for your research, please consider citing t
 - [ ] prepare pretrained weights 
 - [ ] 
 - [ ] 
+
+## Contact:
+If you have any questions which can not find in Google, Feel free to contact us via Gmail m.dehghan9975@gmail.com.
 
 ## Acknowledgements
 
