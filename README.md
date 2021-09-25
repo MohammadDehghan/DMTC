@@ -21,7 +21,11 @@ Full (10582) | DeepLabV2 | ResNet-101 | 75.50
 1/20 | DeepLabV2 | ResNet-101 | 70.2
 1/50 | DeepLabV2 | ResNet-101 | 68.1
 1/100 | DeepLabV2 | ResNet-101 | 65.45
-
+## Outputs
+Cityscapes: with only 372 labeled data
+![GitHub Logo](/DMTC_pics/city_result_github_sample.png)
+PASCAL VOC: with only 100 labeled data
+![GitHub Logo](/DMTC_pics/voc_result_github_sample.png)
 ## Requirements
 This repo was tested with Ubuntu 18.04.3 LTS, Python 3.7, PyTorch 1.7, and CUDA 11.1. we have used automatic mixed precision training which is available for PyTorch versions >=1.7 .
 
