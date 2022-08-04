@@ -58,21 +58,6 @@ For example, for running DMTC on Cityscapes dataset with 1/8 total labeled data:
 ## Pre-trained weights 
 Pre-trained weights  can be downloaded [here](https://drive.google.com/file/d/1sQ_FmyHrWmqJLCrW9vJTnv61Sp4hn-9m/view?usp=sharing).
 
-## Citation :pencil:
-If you find this repo/article useful for your research, please consider citing the paper as follows (we will put it here):
-```
-@article{xxxxxx,
-  title={DMTC: Dynamic Mutual Training based on Contrastive learning for Semi-Supervised Semantic Segmentation},
-  author={},
-  journal={},
-  year={}
-}
-```
-## To do list:
-- [ ] Prepare pre-trained weights 
-- [ ] 
-- [ ] 
-
 ## Contact:
 If you have any questions which can not find in Google, feel free to contact us via m.dehghan9975@gmail.com.
 
